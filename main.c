@@ -4,7 +4,7 @@
  * For more information see: http://www.portaudio.com
  * Copyright (c) 1999-2000 Ross Bencina and Phil Burk
  */
-
+ 
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -17,8 +17,8 @@
 #include <netdb.h>
 #include <time.h>
 
-#include "record.h"
-#include "stt.h"
+#include "src/record.h"
+#include "src/stt.h"
 
 #define SSDP_MULTICAST              "239.255.255.250"
 #define SSDP_PORT                   1900
