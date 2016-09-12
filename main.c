@@ -1,11 +1,9 @@
-
 /*
  * This program uses the PortAudio Portable Audio Library.
  * For more information see: http://www.portaudio.com
  * Copyright (c) 1999-2000 Ross Bencina and Phil Burk
  */
  
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
