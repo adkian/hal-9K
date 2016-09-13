@@ -16,3 +16,6 @@ Optional Dependencies:
 
 This project provides a voice activated way to control GPIO pins on a Raspberry Pi and control a Roku TV connected to the same network. There are a few presents included in the code for controlling the Roku TV which I created for my personal use.
 
+## Custom Language Dictionary
+
+You can create custom dictionary for the keywords you need to use using a corpus file here: http://www.speech.cs.cmu.edu/tools/lmtool.html

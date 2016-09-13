@@ -297,7 +297,8 @@ int sendTVcommand(int command, char* host, int port){
 	sleep(1);
 	http_req_resp(host, port, select, &resp);
 	sleep(1);
-	rokuWrite(host, port, "Star Trek The Next");
+	rokuWrite(host, port, "Star Trek The Next Generation");
+	sleep(2);
 	http_req_resp(host, port, enter, &resp);
 	sleep(7);
 	for(int i=0; i<5; i++)
